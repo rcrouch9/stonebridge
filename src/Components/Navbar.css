@@ -58,3 +58,8 @@
    display: table;
    clear: both;
 }
+
+.logo{
+    width: 250px;
+    padding: 2px;
+}

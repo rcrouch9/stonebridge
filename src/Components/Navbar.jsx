@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { IoClose, IoMenu } from "react-icons/io5";
 import "./Navbar.css"
+import logo from "../assets/logo.png"
 
 export function Navbar() {
  return (
   <body>
    <header className="header">
+
+    <img className="logo" src={logo}></img>
     
      <nav className="nav__container">
 
