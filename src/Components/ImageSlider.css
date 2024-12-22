@@ -1,0 +1,46 @@
+.panel{
+    width: 100%;
+    position: relative;
+}
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-shrink: 0;
+    flex-grow: 0;
+    transition: translate 700ms ease-in-out;
+    border-radius: 5px;
+}
+
+.buttons{
+    all: unset;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+}
+
+.buttons:hover{
+    background-color: rgba(174, 167, 167, 0.17);
+}
+
+.buttons > * {
+    stroke: white;
+    stroke-width: 0.75;
+    fill: black;
+    height: 2rem;
+    width: 2rem; 
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
