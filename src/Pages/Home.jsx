@@ -15,7 +15,7 @@ export function Home() {
         <div className="boxes">
           <div className="box">
             <h1>Professional Installation:</h1>
-            <p>Our team of certified, experienced installers ensures that every window and door is fitted with the highest standards of craftsmanship and attention to detail.</p>
+            <p>Every window and door is fitted with the highest standards of craftsmanship and attention to detail.</p>
           </div>
           <div className="box">
             <h1>Customer-Focused Approach:</h1>
