@@ -44,7 +44,7 @@ export function Contact() {
 
   return (
 
-    <body>
+    <body className='body'>
       <div className='main'>
         <div className='contact-box'>
           <img src={icon} className='icon'></img>
@@ -63,7 +63,7 @@ export function Contact() {
           <input type="email" name="user_email" />
           <label>Message</label>
           <textarea name="message" />
-          <input type="submit" value="Send" disabled={isSubmitting} />
+          <input className="button" type="submit" value="Send" disabled={isSubmitting} />
           {stateMessage && <p>{stateMessage}</p>}
         </form>
       </div>

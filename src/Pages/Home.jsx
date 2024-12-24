@@ -4,7 +4,7 @@ import './pages.css'
 export function Home() {
   
     return (
-      <body>
+      <body className="body">
         <div className="main">
           <h1>Welcome to Stonebridge Windows and Doors</h1>
           <p>a trusted partner for professional window and door installation services. With years of experience in the industry, we specialize in providing high-quality, energy-efficient windows and doors that enhance the beauty, security, and energy performance of your home or business.</p>
