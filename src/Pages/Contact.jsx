@@ -29,7 +29,7 @@ export function Contact() {
           }, 5000); // hide message after 5 seconds
         },
         (error) => {
-          setStateMessage('Something went wrong, please try again later');
+          setStateMessage('Something went wrong, please contact us manually through the information listed above');
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);

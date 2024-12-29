@@ -6,7 +6,7 @@
 
 .nav__item{
     display: inline-block;
-    margin: 20px;
+    margin: 15px;
     padding-top: 20px;
     font-size: 16pt;
     position: relative;
@@ -64,4 +64,15 @@
 .logo{
     width: 250px;
     padding: 2px;
+    position: absolute;
+    top: 3px
+}
+
+@media (max-width: 550px){
+
+    .logo{
+        width: 110px;
+        top: 25px;
+    }
+    
 }
